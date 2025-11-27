@@ -14,7 +14,7 @@ import Preloader from './components/Preloader'
 import { useState } from 'react'
 
 
-function App() {
+function App(insideRegister) {
   const [loading,setLoading] = useState(true)
 
   setTimeout(() => {
